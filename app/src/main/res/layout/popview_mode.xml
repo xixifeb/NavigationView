@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:text="dry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDry"
+        android:layout_above="@+id/btnAuto"
+        android:layout_alignLeft="@+id/btnAuto"
+        android:layout_alignStart="@+id/btnAuto" />
+
+    <Button
+        android:text="fan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFanOnly"
+        android:layout_above="@+id/btnDry"
+        android:layout_alignLeft="@+id/btnDry"
+        android:layout_alignStart="@+id/btnDry" />
+
+    <Button
+        android:text="Cool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCool"
+        android:layout_above="@+id/btnFanOnly"
+        android:layout_alignLeft="@+id/btnFanOnly"
+        android:layout_alignStart="@+id/btnFanOnly" />
+
+    <Button
+        android:text="auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAuto"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

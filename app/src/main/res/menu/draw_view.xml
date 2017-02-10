@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/nav_home" />
+        <item android:title="Message"
+            android:id="@+id/nav_messages" />
+        <item android:title="Friends"
+            android:id="@+id/nav_friends" />
+        <item android:title="Discussion"
+            android:id="@+id/nav_discussion" />
+    </group>
+    <item android:title="Sub items" >
+        <menu >
+            <item android:title="Sub item1" />
+            <item android:title="Sub item2" />
+        </menu>
+    </item>
+
+
+</menu>
